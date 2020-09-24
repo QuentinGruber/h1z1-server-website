@@ -15,6 +15,10 @@
       $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
     });
   });
+
+  $( window ).load(function() {
+          $( '.video-element' ).get(0).play();
+ });
   </script>
 
 </body>
