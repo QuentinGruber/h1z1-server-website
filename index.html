@@ -1,8 +1,15 @@
 
 <body>
 <!--lmao-->
-<video id="my-vid" src="./ok.mp4" autoplay></video>
+<video id="vid" controls>
+  <source src="./ok.mp4"
+  type="video/mp4">
+</video>
 
-<p>yeah you have to wait that's sad</p>
-
+<p>follow the totorial ! </p>
+<script>
+  var herovide = document.getElementById('vid');
+       herovide.mute=false;
+       herovide.load();  
+</script>
 </body>
